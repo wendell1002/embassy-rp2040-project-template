@@ -3,6 +3,10 @@ edition = "2021"
 name = "{{project-name}}"
 version = "0.1.0"
 license = "MIT OR Apache-2.0"
+[[bin]]
+name = "{{project-name}}"
+path = "./src/bin/main.rs"
+
 
 [dependencies]
 cortex-m = "0.7"
