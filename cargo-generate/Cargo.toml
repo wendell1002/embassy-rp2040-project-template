@@ -25,9 +25,10 @@ panic-probe = { version = "1", features = ["print-defmt"] }
 # sparkfun-pro-micro-rp2040 = "0.8"
 
 # If you're not going to use a Board Support Package you'll need these:
-rp2040-hal = { version = "0.10", features = ["rt", "critical-section-impl"] }
+rp2040-hal = { version = "0.11", features = ["rt", "critical-section-impl"] }
 rp2040-boot2 = "0.3"
-
+fugit = "0.3"
+# critical-section = { version = "1.2.0" }
 # cargo build/run
 [profile.dev]
 codegen-units = 1
